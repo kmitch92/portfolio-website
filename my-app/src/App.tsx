@@ -11,7 +11,6 @@ function App() {
     <>
       <Navbar />
       <Container>
-        <h1>Kiel's Portfolio Page</h1>
         <Routes>
           <Route path="/" element={<Home />}>
             Home
