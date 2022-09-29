@@ -15,10 +15,10 @@ export const Portfolio = () => {
         Projects.Projects.map((project) => {
           return (
             <Card style={{ width: '50rem', marginBottom: '50px' }}>
-              <Card.Header className="bg-success text-white">
+              <Card.Header className="bg-secondary text-white">
                 <h3>{project.Title}</h3>
               </Card.Header>
-              <Card.Img variant="top" src={project.Images[0]} />
+              <Card.Img variant="middle" src={project.Images[0]} />
               <Card.Body>
                 <Card.Text>{project.Description}</Card.Text>
               </Card.Body>
@@ -29,13 +29,13 @@ export const Portfolio = () => {
               </ListGroup>
               <Card.Body>
                 <Button
-                  variant="outline-success"
+                  variant="outline-secondary"
                   style={{ marginRight: '40px' }}
                   href={project.Link}
                 >
                   Hosted Link
                 </Button>
-                <Button variant="outline-success" href={project.GitHub}>
+                <Button variant="outline-secondary" href={project.GitHub}>
                   Repository
                 </Button>
               </Card.Body>

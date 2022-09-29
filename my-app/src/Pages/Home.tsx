@@ -1,4 +1,4 @@
-import { Container, Card, Button, Accordion } from 'react-bootstrap';
+import { Container, Card, Button, Accordion, Badge } from 'react-bootstrap';
 
 export const Home = () => {
   return (
@@ -10,8 +10,8 @@ export const Home = () => {
         marginTop: '40px',
       }}
     >
-      <Card style={{ width: '35vw' }} className="shadow-sm ">
-        <Card.Header className="bg-success text-white" as="h1">
+      <Card style={{ width: '35vw' }} className="shadow">
+        <Card.Header className="bg-secondary text-white" as="h1">
           Kiel Mitchell
         </Card.Header>
         <Card.Img
@@ -24,23 +24,47 @@ export const Home = () => {
             Some quick example text to build on the card title and make up the
             bulk of the card's content.
           </Card.Text>
-          <Button variant="outline-success">Curriculum Vitae</Button>
+          <Button variant="outline-secondary">Curriculum Vitae</Button>
         </Card.Body>
       </Card>
       <Container
-        className="bg-success"
+        className="bg-secondary shadow"
         style={{
           marginTop: '30px',
           borderRadius: '9px',
           width: '70vw',
-          height: '30vh',
+          height: '40vh',
         }}
       >
         <h1 className="text-white">Technologies</h1>
-        <Accordion defaultActiveKey={['0']} alwaysOpen>
+        <Accordion
+          defaultActiveKey={['0']}
+          alwaysOpen
+          className="accordion-active"
+        >
           <Accordion.Item eventKey="0">
             <Accordion.Header>Languages</Accordion.Header>
             <Accordion.Body>
+              <Badge pill bg="warning" text="dark">
+                JavaScript
+              </Badge>
+              {'  '}
+              <Badge pill bg="secondary">
+                Java
+              </Badge>
+              {'  '}
+              <Badge pill bg="primary">
+                Python
+              </Badge>
+              {'  '}
+              <Badge pill bg="success">
+                SQL
+              </Badge>{' '}
+              <Badge pill bg="danger">
+                C
+              </Badge>{' '}
+              <br />
+              <br />
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </Accordion.Body>
