@@ -12,8 +12,8 @@ export const Navbar = () => {
           <Nav.Link to="/portfolio" as={NavLink}>
             Portfolio
           </Nav.Link>
-          <Nav.Link to="/cv" as={NavLink}>
-            CV
+          <Nav.Link to="/contact" as={NavLink}>
+            Contact
           </Nav.Link>
         </Nav>
       </Container>

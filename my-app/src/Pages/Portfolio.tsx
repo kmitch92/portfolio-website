@@ -1,4 +1,4 @@
-import { Container, Card, ListGroup } from 'react-bootstrap';
+import { Container, Card, ListGroup, Button } from 'react-bootstrap';
 import Projects from '../projects.json';
 
 export const Portfolio = () => {
@@ -20,8 +20,16 @@ export const Portfolio = () => {
                 ))}
               </ListGroup>
               <Card.Body>
-                <Card.Link href={project.Link}>Hosted Link</Card.Link>
-                <Card.Link href={project.GitHub}>Repository</Card.Link>
+                <Button
+                  variant="outline-success"
+                  style={{ marginRight: '40px' }}
+                  href={project.Link}
+                >
+                  Hosted Link
+                </Button>
+                <Button variant="outline-success" href={project.GitHub}>
+                  Repository
+                </Button>
               </Card.Body>
             </Card>
           );

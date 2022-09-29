@@ -1,9 +1,9 @@
 import { Container } from 'react-bootstrap';
 
-export const CV = () => {
+export const Contact = () => {
   return (
     <Container>
-      <h1>CV Page</h1>
+      <h1>Contact Page</h1>
     </Container>
   );
 };
