@@ -13,7 +13,6 @@ export const Sidebar = (props: OffcanvasProps) => {
         position: 'fixed',
         display: 'block',
         right: '0%',
-        top: '50%',
         bottom: '50%',
         height: '10vh',
       }}
