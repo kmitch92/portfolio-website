@@ -35,8 +35,12 @@ export const Sidebar = (props: OffcanvasProps) => {
           <Offcanvas.Title>Links</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          GitHub : https://github.com/kmitch92?tab=repositories Instagram :
-          https://www.instagram.com/kielmitchell/
+          GitHub : https://github.com/kmitch92?tab=repositories
+        </Offcanvas.Body>
+        Instagram : https://www.instagram.com/kielmitchell/
+        <Offcanvas.Body></Offcanvas.Body>
+        <Offcanvas.Body>
+          LinkedIn: https://www.linkedin.com/in/kielmitchell/
         </Offcanvas.Body>
       </Offcanvas>
     </div>
