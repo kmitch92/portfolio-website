@@ -3,17 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 export const Navbar = () => {
   return (
-    <NavBS sticky="top" className="bg-darker-tg shadow-sm mb-3">
+    <NavBS sticky="top" variant="dark" className="bg-darker-tg shadow-sm mb-3">
       <Container className="text-white">
         <Nav className="me-auto">
           <Nav.Link to="/" as={NavLink}>
-            <h4 className="text-lighter-tg">Home</h4>
+            Home
           </Nav.Link>
           <Nav.Link to="/portfolio" as={NavLink}>
-            <h4 className="text-lighter-tg">Portfolio</h4>
+            Portfolio
           </Nav.Link>
           <Nav.Link to="/contact" as={NavLink}>
-            <h4 className="text-lighter-tg">Contact</h4>
+            Contact
           </Nav.Link>
         </Nav>
       </Container>

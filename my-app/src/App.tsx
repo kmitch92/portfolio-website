@@ -4,11 +4,13 @@ import { Home } from './Pages/Home';
 import { Contact } from './Pages/Contact';
 import { Portfolio } from './Pages/Portfolio';
 import { Navbar } from './Components/Navbar';
+import { Sidebar } from './Components/Sidebar';
 
-function App() {
+const App = () => {
   return (
     <>
       <Navbar />
+      <Sidebar placement="end" />
       <Container>
         <Routes>
           <Route path="/" element={<Home />}>
@@ -24,6 +26,6 @@ function App() {
       </Container>
     </>
   );
-}
+};
 
 export default App;

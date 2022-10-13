@@ -4,9 +4,24 @@ export const Contact = () => {
   return (
     <Container>
       <Card
-        style={{ padding: '25px', border: 'none', marginTop: '30px' }}
+        style={{ padding: '25px', border: 'none', marginTop: '60px' }}
         className="shadow-sm bg-lighter-tg"
       >
+        <Card.Header
+          className="bg-lighter-tg text-darker-tg"
+          style={{ border: 'none' }}
+          as="h1"
+        >
+          Please, get in touch!
+        </Card.Header>
+        <Card.Text style={{ padding: '1%' }}>
+          <h5>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </h5>
+        </Card.Text>
         <Card
           style={{ padding: '25px', border: 'none', marginTop: '30px' }}
           className="shadow-sm"

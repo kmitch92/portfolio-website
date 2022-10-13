@@ -8,18 +8,19 @@ export const Portfolio = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
+        justifyContent: 'center',
         marginTop: '40px',
       }}
     >
       <Card
-        style={{ width: '55rem', padding: '20px', border: 'none' }}
+        style={{ width: '55vw', padding: '20px', border: 'none' }}
         className="shadow-sm bg-lighter-tg"
       >
         {Projects &&
           Projects.Projects.map((project) => {
             return (
               <Card
-                style={{ width: '50rem', marginBottom: '50px', border: 'none' }}
+                style={{ width: '52vw', marginBottom: '30px', border: 'none' }}
                 className="shadow-sm"
               >
                 <Card.Header

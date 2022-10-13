@@ -7,15 +7,15 @@ export const Home = () => {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        marginTop: '40px',
+        marginTop: '70px',
       }}
     >
       <Card
-        style={{ width: '45vw', padding: '20px', border: 'none' }}
+        style={{ width: '55vw', padding: '30px', border: 'none' }}
         className="shadow-sm bg-lighter-tg"
       >
         <Card
-          style={{ width: '25vw', alignSelf: 'center', border: 'none' }}
+          style={{ width: '35vw', alignSelf: 'center', border: 'none' }}
           className="shadow"
         >
           <Card.Header
@@ -29,19 +29,46 @@ export const Home = () => {
             variant="middle"
             src="https://images-cdn.9gag.com/photo/aN1zy3w_700b.jpg"
           />
-          <Card.Body className="bg-white text-darker-tg">
+          <Card.Body
+            className="bg-white text-darker-tg"
+            style={{ borderRadius: '8px' }}
+          >
             <Card.Title>Full-Stack Junior Developer</Card.Title>
             <Card.Text>
               Some quick example text to build on the card title and make up the
               bulk of the card's content.
             </Card.Text>
-            <Button
-              variant="darker-tg"
-              className="shadow-sm text-white"
-              style={{ borderRadius: '9px' }}
+            <Card.Text>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </Card.Text>
+            <div
+              style={{
+                display: 'flex',
+                justifyContent: 'space-evenly',
+                alignItems: 'center',
+              }}
             >
-              Curriculum Vitae
-            </Button>
+              <h4 className="text-darker-tg" style={{ paddingTop: '4px' }}>
+                Curriculum Vitae
+              </h4>
+              <Button
+                variant="outline-darker-tg"
+                className="shadow-sm text-darker-tg"
+                style={{ borderRadius: '9px', width: '8vw' }}
+              >
+                View
+              </Button>
+              <Button
+                variant="darker-tg"
+                className="shadow-sm text-white"
+                style={{ borderRadius: '9px', width: '8vw' }}
+              >
+                Download
+              </Button>
+            </div>
           </Card.Body>
         </Card>
 
@@ -56,7 +83,7 @@ export const Home = () => {
               marginTop: '20px',
               borderRadius: '9px',
               padding: '10px',
-              width: '40vw',
+              width: '50vw',
             }}
           >
             <h1 className="text-darker-tg">Technologies</h1>
