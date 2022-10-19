@@ -28,7 +28,7 @@ export const Home = () => {
           <Card.Img
             variant="middle"
             src="https://images-cdn.9gag.com/photo/aN1zy3w_700b.jpg"
-          />
+          />{' '}
           <Card.Body
             className="bg-white text-darker-tg"
             style={{ borderRadius: '8px' }}
@@ -51,20 +51,27 @@ export const Home = () => {
                 alignItems: 'center',
               }}
             >
-              <h4 className="text-darker-tg" style={{ paddingTop: '4px' }}>
+              <h4
+                className="text-darker-tg"
+                style={{ paddingTop: '4px', paddingRight: '0.5vw' }}
+              >
                 Curriculum Vitae
               </h4>
               <Button
                 variant="outline-darker-tg"
                 className="shadow-sm text-darker-tg"
-                style={{ borderRadius: '9px', width: '8vw' }}
+                style={{
+                  borderRadius: '9px',
+                  width: '10vw',
+                  marginRight: '0.5vw',
+                }}
               >
                 View
               </Button>
               <Button
                 variant="darker-tg"
                 className="shadow-sm text-white"
-                style={{ borderRadius: '9px', width: '8vw' }}
+                style={{ borderRadius: '9px', width: '10vw' }}
               >
                 Download
               </Button>
@@ -76,17 +83,20 @@ export const Home = () => {
           defaultActiveKey={['0']}
           alwaysOpen
           className="accordion-active"
+          style={{ alignSelf: 'center' }}
         >
-          <Container
+          <Card
             className="bg-white shadow"
             style={{
-              marginTop: '20px',
+              marginTop: '40px',
               borderRadius: '9px',
               padding: '10px',
-              width: '50vw',
+              width: '45vw',
             }}
           >
-            <h1 className="text-darker-tg">Technologies</h1>
+            <h2 style={{ marginLeft: '5px' }} className="text-darker-tg">
+              Technologies
+            </h2>
             <Accordion.Item eventKey="0">
               <Accordion.Header>Languages</Accordion.Header>
               <Accordion.Body>
@@ -128,7 +138,7 @@ export const Home = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </Accordion.Body>
             </Accordion.Item>
-          </Container>
+          </Card>
         </Accordion>
       </Card>
     </Container>
