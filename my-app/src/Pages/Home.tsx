@@ -1,6 +1,21 @@
 import { Container, Card, Button, Accordion, Badge } from 'react-bootstrap';
+import { PDFmodal } from '../Components/PDFmodal';
+import { useState } from 'react';
 
 export const Home = () => {
+  const [PDFmodalShow, setPDFmodalShow] = useState(false);
+
+  const onDownloadClick = () => {
+    let alink = document.createElement('a');
+    alink.href = 'Kiel_CV.pdf';
+    alink.setAttribute('download', 'Kiel_CV.pdf');
+    document.body.appendChild(alink);
+    alink.click();
+  };
+
+  const handleClose = () => setPDFmodalShow(false);
+  const handleShow = () => setPDFmodalShow(true);
+
   return (
     <Container
       style={{
@@ -51,6 +66,7 @@ export const Home = () => {
                 alignItems: 'center',
               }}
             >
+              <PDFmodal PDFmodalShow={PDFmodalShow} handleClose={handleClose} />
               <h4
                 className="text-darker-tg"
                 style={{ paddingTop: '4px', paddingRight: '0.5vw' }}
@@ -65,6 +81,7 @@ export const Home = () => {
                   width: '10vw',
                   marginRight: '0.5vw',
                 }}
+                onClick={handleShow}
               >
                 View
               </Button>
@@ -72,6 +89,7 @@ export const Home = () => {
                 variant="darker-tg"
                 className="shadow-sm text-white"
                 style={{ borderRadius: '9px', width: '10vw' }}
+                onClick={onDownloadClick}
               >
                 Download
               </Button>
