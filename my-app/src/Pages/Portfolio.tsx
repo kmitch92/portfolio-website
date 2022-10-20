@@ -13,14 +13,14 @@ export const Portfolio = () => {
       }}
     >
       <Card
-        style={{ width: '55vw', padding: '20px', border: 'none' }}
+        style={{ width: '45vw', padding: '20px', border: 'none' }}
         className="shadow-sm bg-lighter-tg"
       >
         {Projects &&
           Projects.Projects.map((project) => {
             return (
               <Card
-                style={{ width: '52vw', marginBottom: '30px', border: 'none' }}
+                style={{ width: '42vw', marginBottom: '30px', border: 'none' }}
                 className="shadow-sm"
               >
                 <Card.Header

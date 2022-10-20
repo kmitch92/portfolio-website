@@ -20,7 +20,7 @@ export const Sidebar = (props: OffcanvasProps) => {
       <Button
         variant="darker-tg"
         onClick={handleShow}
-        style={{ height: '15vh', width: '3vw' }}
+        style={{ height: '14rem', width: '3rem' }}
       >
         <h4>L</h4>
         <h4>I</h4>
