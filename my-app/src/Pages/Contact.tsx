@@ -1,9 +1,7 @@
 import { Card, Container, Form, Button } from 'react-bootstrap';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Popover from 'react-bootstrap/Popover';
-
 import { ContactOption, Props } from '../Components/ContactOption';
-
 import { useRef, MutableRefObject, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -22,10 +20,13 @@ const popover = (
 export const Contact = () => {
   const form: MutableRefObject<any> = useRef();
   const [showSubmit, toggleShowSubmit] = useState(true);
+  console.log(form);
 
   const sendEmail = (e: any) => {
     e.preventDefault();
     toggleShowSubmit(false);
+
+    const dataObj = {};
 
     emailjs
       .sendForm(
@@ -92,9 +93,20 @@ export const Contact = () => {
         >
           <h1 className="text-darker-tg">Contact Me</h1>
           <Form style={{ marginTop: '2rem' }} ref={form} onSubmit={sendEmail}>
+            <Form.Group className="mb-3" controlId="formBasicName">
+              <Form.Control
+                type="text"
+                name="name"
+                className="shadow-sm"
+                style={{ border: 'none' }}
+                placeholder="Your Name"
+              />
+            </Form.Group>
+
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 type="email"
+                name="email"
                 className="shadow-sm"
                 style={{ border: 'none' }}
                 placeholder="Your Email Address"
@@ -104,6 +116,7 @@ export const Contact = () => {
             <Form.Group className="mb-3" controlId="formBasicTopic">
               <Form.Control
                 type="text"
+                name="topic"
                 className="shadow-sm"
                 style={{ border: 'none' }}
                 placeholder="Topic"
@@ -112,6 +125,7 @@ export const Contact = () => {
             <Form.Group>
               <Form.Control
                 type="text"
+                name="message"
                 className="shadow-sm"
                 style={{ border: 'none' }}
                 placeholder="Message"

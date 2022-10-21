@@ -21,6 +21,7 @@ export const ContactOption: FC<Props> = ({ option }) => {
         height: '12rem',
       }}
       className="bg-ligher-tg text-darker-tg shadow-sm"
+      key={option.name}
     >
       <Card.Header className="text-lighter-tg bg-darker-tg">
         {option.icon === 'email' && (
