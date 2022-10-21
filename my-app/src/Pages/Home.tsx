@@ -1,6 +1,7 @@
 import { Container, Card, Button, Accordion, Badge } from 'react-bootstrap';
 import { PDFmodal } from '../Components/PDFmodal';
 import { useState } from 'react';
+import { BsDownload, BsEyeFill } from 'react-icons/bs';
 
 export const Home = () => {
   const [PDFmodalShow, setPDFmodalShow] = useState(false);
