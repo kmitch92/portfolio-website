@@ -20,13 +20,8 @@ const popover = (
 export const Contact = () => {
   const form: MutableRefObject<any> = useRef();
   const [showSubmit, toggleShowSubmit] = useState(true);
-  console.log(form);
-
   const sendEmail = (e: any) => {
     e.preventDefault();
-    toggleShowSubmit(false);
-
-    const dataObj = {};
 
     emailjs
       .sendForm(
@@ -37,7 +32,7 @@ export const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toggleShowSubmit(false);
         },
         (error) => {
           console.log(error.text);
