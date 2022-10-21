@@ -79,19 +79,33 @@ export const Home = () => {
                 className="shadow-sm text-darker-tg"
                 style={{
                   borderRadius: '9px',
-                  width: '10vw',
-                  marginRight: '0.5vw',
+                  width: '12rem',
+                  marginRight: '0.4rem',
                 }}
                 onClick={handleShow}
               >
+                <BsEyeFill
+                  style={{
+                    fontSize: '1.4rem',
+                    margin: '0.5rem',
+                    marginRight: '1rem',
+                  }}
+                />
                 View
               </Button>
               <Button
                 variant="darker-tg"
                 className="shadow-sm text-white"
-                style={{ borderRadius: '9px', width: '10vw' }}
+                style={{ borderRadius: '9px', width: '12rem' }}
                 onClick={onDownloadClick}
               >
+                <BsDownload
+                  style={{
+                    fontSize: '1.4rem',
+                    margin: '0.5rem',
+                    marginRight: '1rem',
+                  }}
+                />
                 Download
               </Button>
             </div>
