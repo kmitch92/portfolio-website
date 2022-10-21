@@ -1,5 +1,6 @@
 import { Container, Card, ListGroup, Button } from 'react-bootstrap';
 import Projects from '../Assets/projects.json';
+import { BsLink45Deg, BsGithub } from 'react-icons/bs';
 
 export const Portfolio = () => {
   return (
@@ -41,17 +42,19 @@ export const Portfolio = () => {
                 <Card.Body>
                   <Button
                     variant="darker-tg"
-                    style={{ marginRight: '40px', borderRadius: '9px' }}
+                    style={{ marginRight: '10px', borderRadius: '9px' }}
                     href={project.Link}
                   >
-                    Hosted Link
+                    <BsLink45Deg
+                      style={{ fontSize: '2rem', margin: '0.2rem' }}
+                    />
                   </Button>
                   <Button
                     variant="darker-tg"
                     href={project.GitHub}
                     style={{ borderRadius: '9px' }}
                   >
-                    Repository
+                    <BsGithub style={{ fontSize: '2rem', margin: '0.2rem' }} />
                   </Button>
                 </Card.Body>
               </Card>

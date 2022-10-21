@@ -81,13 +81,13 @@ export const Home = () => {
                   borderRadius: '9px',
                   width: '12rem',
                   marginRight: '0.4rem',
+                  padding: '0.5rem',
                 }}
                 onClick={handleShow}
               >
                 <BsEyeFill
                   style={{
                     fontSize: '1.4rem',
-                    margin: '0.5rem',
                     marginRight: '1rem',
                   }}
                 />
@@ -96,13 +96,16 @@ export const Home = () => {
               <Button
                 variant="darker-tg"
                 className="shadow-sm text-white"
-                style={{ borderRadius: '9px', width: '12rem' }}
+                style={{
+                  borderRadius: '9px',
+                  width: '12rem',
+                  padding: '0.5rem',
+                }}
                 onClick={onDownloadClick}
               >
                 <BsDownload
                   style={{
                     fontSize: '1.4rem',
-                    margin: '0.5rem',
                     marginRight: '1rem',
                   }}
                 />
