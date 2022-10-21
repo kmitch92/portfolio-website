@@ -134,8 +134,14 @@ export const Contact = () => {
                     marginTop: '20px',
                     border: 'none',
                     borderRadius: '9px',
+                    marginLeft: '50%',
+                    transform: 'translateX(-50%)',
+                    padding: '0.6rem',
+                    fontSize: '1.2rem',
+                    width: '8rem',
+                    fontWeight: '500',
                   }}
-                  className="shadow-sm"
+                  className="shadow-sm "
                   type="submit"
                 >
                   Submit
@@ -147,6 +153,12 @@ export const Contact = () => {
                     marginTop: '20px',
                     border: 'none',
                     borderRadius: '9px',
+                    marginLeft: '50%',
+                    transform: 'translateX(-50%)',
+                    padding: '0.6rem',
+                    fontSize: '1.2rem',
+                    width: '8rem',
+                    fontWeight: '500',
                   }}
                   className="shadow-sm"
                   disabled
