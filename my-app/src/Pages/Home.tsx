@@ -53,14 +53,13 @@ export const Home = () => {
             >
               <Card.Title>Full-Stack Junior Developer</Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                I am a creative and analytical problem solver with a drive for
+                mastery in the skills I pursue.
               </Card.Text>
               <Card.Text>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Having recently completed the Northcoders Skills Bootcamp, I am
+                now looking for roles where I will continue to learn and grow as
+                a developer.
               </Card.Text>
               <div
                 style={{
@@ -161,13 +160,38 @@ export const Home = () => {
                   </Badge>{' '}
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Most of the code that I have written has been in JavaScript,
+                  though I have also written some Java and Python and have
+                  touched upon C. I am familiar with SQL through using
+                  PostgreSQL and SQLite.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Front-End</Accordion.Header>
                 <Accordion.Body>
+                  <Badge pill bg="react" text="dark">
+                    React
+                  </Badge>
+                  {'  '}
+                  <Badge pill bg="react" text="dark">
+                    React Native
+                  </Badge>
+                  {'  '}
+                  <Badge pill bg="html">
+                    HTML & CSS
+                  </Badge>
+                  {'  '}
+                  <Badge pill bg="typescript">
+                    TypeScript
+                  </Badge>{' '}
+                  <Badge pill bg="bootstrap">
+                    Bootstrap
+                  </Badge>{' '}
+                  <Badge pill bg="tailwind">
+                    Tailwind
+                  </Badge>{' '}
+                  <br />
+                  <br />
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </Accordion.Body>
