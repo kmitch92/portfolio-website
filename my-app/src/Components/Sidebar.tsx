@@ -1,4 +1,4 @@
-import { Offcanvas, Button, OffcanvasProps } from 'react-bootstrap';
+import { Offcanvas, Button, OffcanvasProps, Card } from 'react-bootstrap';
 import { useState } from 'react';
 
 export const Sidebar = (props: OffcanvasProps) => {
@@ -20,17 +20,32 @@ export const Sidebar = (props: OffcanvasProps) => {
       <Button
         variant="darker-tg"
         onClick={handleShow}
-        style={{ height: '14rem', width: '3rem' }}
+        style={{
+          height: '14rem',
+          width: '2.6rem',
+          borderRadius: '20px 0px 0px 20px',
+        }}
       >
-        <h4>L</h4>
-        <h4>I</h4>
-        <h4>N</h4>
-        <h4>K</h4>
-        <h4>S</h4>
+        <h3
+          style={{
+            transform: 'rotate(-90deg)',
+            letterSpacing: '.6rem',
+            textAlign: 'center',
+            marginTop: '6.7rem',
+          }}
+        >
+          LINKS
+        </h3>
       </Button>
 
-      <Offcanvas show={show} onHide={handleClose} placement={props.placement}>
-        <Offcanvas.Header closeButton>
+      <Offcanvas
+        show={show}
+        onHide={handleClose}
+        placement={props.placement}
+        className="bg-darker-tg text-light"
+        style={{}}
+      >
+        <Offcanvas.Header className="bg-light text-darker-tg" closeButton>
           <Offcanvas.Title>Links</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
