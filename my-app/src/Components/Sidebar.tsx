@@ -29,7 +29,7 @@ export const Sidebar = (props: OffcanvasProps) => {
         <h3
           style={{
             transform: 'rotate(-90deg)',
-            letterSpacing: '.6rem',
+            letterSpacing: '.5rem',
             textAlign: 'center',
             marginTop: '6.7rem',
           }}

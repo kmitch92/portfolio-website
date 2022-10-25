@@ -16,7 +16,7 @@ I began programming during the COVID period and fell in love with it due to the 
 
 _Languages_: **Javascript**, Java, Python
 
-_Front-End_: **React**, **React Native,** HTML5, CSS3, TypeScript, Bootstrap, Tailwind 
+_Front-End_: **React**, **React Native,** HTML5, CSS3, TypeScript, Sass, Bootstrap, Tailwind 
 
 _Back-End_: **Node.js**, PostgreSQL, SQLite, Express
 

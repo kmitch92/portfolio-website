@@ -144,18 +144,18 @@ export const Home = () => {
                     JavaScript
                   </Badge>
                   {'  '}
-                  <Badge pill bg="teal-grey">
+                  <Badge pill bg="typescript">
                     Java
                   </Badge>
                   {'  '}
-                  <Badge pill bg="primary">
+                  <Badge pill bg="warning" text="primary">
                     Python
                   </Badge>
                   {'  '}
                   <Badge pill bg="success">
                     SQL
                   </Badge>{' '}
-                  <Badge pill bg="danger">
+                  <Badge pill bg="secondary">
                     C
                   </Badge>{' '}
                   <br />
@@ -184,6 +184,9 @@ export const Home = () => {
                   <Badge pill bg="typescript">
                     TypeScript
                   </Badge>{' '}
+                  <Badge pill bg="sass">
+                    Sass
+                  </Badge>{' '}
                   <Badge pill bg="bootstrap">
                     Bootstrap
                   </Badge>{' '}
@@ -192,15 +195,40 @@ export const Home = () => {
                   </Badge>{' '}
                   <br />
                   <br />
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  I have used ReactJS in the majority of my front-end projects,
+                  and have managed to gain a basic familiarity with a few of the
+                  major styling libraries and frameworks.
+                  <br />
+                  <br />I had an introduction to mobile development through
+                  React-Native while at Northcoders, and this website has been
+                  my first foray into using TypeScript.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>Back-End</Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  <Badge pill bg="success">
+                    Node
+                  </Badge>
+                  {'  '}
+                  <Badge pill bg="teal-grey">
+                    PostgreSQL
+                  </Badge>
+                  {'  '}
+                  <Badge pill bg="typescript">
+                    SQLite
+                  </Badge>
+                  {'  '}
+                  <Badge pill bg="lighter-tg" text="dark">
+                    Express
+                  </Badge>
+                  {'  '}
+                  <br />
+                  <br />
+                  All of my back-end work so far has been with Node.JS /
+                  Express, and a flavour of SQL to build RESTful APIs for
+                  web-applications, although I've also used Python and SQLite to
+                  build a minimal CLI DBMS.
                 </Accordion.Body>
               </Accordion.Item>
             </Card>
