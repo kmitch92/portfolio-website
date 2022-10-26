@@ -127,7 +127,7 @@ export const Home = () => {
             style={{ alignSelf: 'center' }}
           >
             <Card
-              className="bg-white shadow"
+              className="bg-darker-tg shadow"
               style={{
                 marginTop: '40px',
                 borderRadius: '9px',
@@ -135,7 +135,7 @@ export const Home = () => {
                 width: '45vw',
               }}
             >
-              <h2 style={{ marginLeft: '5px' }} className="text-darker-tg">
+              <h2 style={{ marginLeft: '5px' }} className="text-white">
                 Technologies
               </h2>
               <Accordion.Item eventKey="0">
