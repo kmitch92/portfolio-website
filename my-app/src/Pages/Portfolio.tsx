@@ -32,7 +32,7 @@ export const Portfolio = () => {
                   className="shadow-sm"
                 >
                   <Card.Header
-                    className="bg-white text-darker-tg"
+                    className="bg-darker-tg text-white"
                     style={{ border: 'none' }}
                   >
                     <h3>{project.Title}</h3>
