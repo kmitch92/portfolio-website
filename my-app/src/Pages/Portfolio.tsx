@@ -2,6 +2,7 @@ import { Container, Card, ListGroup, Button } from 'react-bootstrap';
 import Projects from '../Assets/projects.json';
 import { BsLink45Deg, BsGithub } from 'react-icons/bs';
 import AnimatedPage from '../Components/AnimatedPage';
+import { TechPill } from '../Components/TechPill';
 
 export const Portfolio = () => {
   return (
@@ -40,11 +41,15 @@ export const Portfolio = () => {
                   <Card.Body>
                     <Card.Text>{project.Description}</Card.Text>
                   </Card.Body>
-                  <ListGroup className="list-group-flush">
+                  <Card.Body>
+                    {' '}
                     {project.Tags.split(' ').map((tag) => (
-                      <ListGroup.Item>{tag}</ListGroup.Item>
+                      <span style={{ marginRight: '0.4rem' }}>
+                        <TechPill tech={tag} />
+                      </span>
                     ))}
-                  </ListGroup>
+                  </Card.Body>
+
                   <Card.Body>
                     <Button
                       variant="darker-tg"

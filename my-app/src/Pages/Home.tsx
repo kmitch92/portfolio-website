@@ -223,6 +223,9 @@ export const Home = () => {
                     Express
                   </Badge>
                   {'  '}
+                  <Badge pill bg="jest">
+                    Jest
+                  </Badge>
                   <br />
                   <br />
                   All of my back-end work so far has been with Node.JS /

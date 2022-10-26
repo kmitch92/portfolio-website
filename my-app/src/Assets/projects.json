@@ -13,7 +13,7 @@
     {
       "Title": "wePark - Parking Social Network App",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "Tags": "JavaScript React-Native Tailwind-CSS",
+      "Tags": "JavaScript React-Native Tailwind PostgreSQL Node Express",
       "Images": ["https://i.redd.it/n3toa7n4izq31.jpg"],
       "Link": "null",
       "GitHub": "https://github.com/jakewilliams33/wePark-fe"
@@ -21,7 +21,7 @@
     {
       "Title": "NC News - Front-End Mock News/Blog Site",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "Tags": "JavaScript React Responsive-Design CSS",
+      "Tags": "JavaScript React CSS",
       "Images": [
         "https://www.visitabdn.com/assets/Uploads/_resampled/ScaleWidthWyIxOTAwIl0/Lairig-Ghru-View-from-Ben-Macdui-VA-USE-ONLY-SHUTTERSTOCK-PURCHASE-EXPIRES-13-MAR-2021-low-res10.jpg"
       ],
@@ -31,7 +31,7 @@
     {
       "Title": "NC News - Back-End RESTful API",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "Tags": "Node.js Express Jest Husky",
+      "Tags": "Node Express Jest PostgreSQL",
       "Images": [
         "https://i.pinimg.com/originals/04/05/b7/0405b7a42d38e1e0973f8ff41a0d7318.jpg"
       ],
@@ -41,7 +41,7 @@
     {
       "Title": "Portfolio Site - The Site You Are Currently Using!",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-      "Tags": "TypeScript Bootstrap SASS",
+      "Tags": "TypeScript React Bootstrap Sass",
       "Images": [
         "http://d13dvnaesjm4lk.cloudfront.net/blog/1633286543_728d6dcf9e9a0cd4ab5f9f1c489b2a23.jpg"
       ],
