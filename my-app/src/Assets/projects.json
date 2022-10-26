@@ -36,7 +36,7 @@
       "Title": "Portfolio Site - The Site You Are Currently Using!",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "Tags": "TypeScript React Bootstrap Sass",
-      "Images": ["portfolio-1.png"],
+      "Images": ["portfolio.png"],
       "Link": "null",
       "GitHub": "https://github.com/kmitch92/portfolio-website"
     }
