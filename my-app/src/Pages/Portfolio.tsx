@@ -56,20 +56,14 @@ export const Portfolio = () => {
                       style={{ marginRight: '10px', borderRadius: '9px' }}
                       href={project.Link}
                     >
-                      <BsLink45Deg
-                        style={{ fontSize: '1.4rem', margin: '0.1rem' }}
-                      />{' '}
-                      Hosted
+                      <BsLink45Deg style={{ fontSize: '1.4rem' }} /> Hosted
                     </Button>
                     <Button
                       variant="darker-tg"
                       href={project.GitHub}
                       style={{ borderRadius: '9px' }}
                     >
-                      <BsGithub
-                        style={{ fontSize: '1.4rem', margin: '0.1rem' }}
-                      />{' '}
-                      Repositiory
+                      <BsGithub style={{ fontSize: '1.4rem' }} /> Repositiory
                     </Button>
                   </Card.Body>
                 </Card>
