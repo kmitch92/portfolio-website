@@ -20,6 +20,12 @@ export const Portfolio = () => {
           style={{ width: '45vw', padding: '20px', border: 'none' }}
           className="shadow-sm bg-lighter-tg"
         >
+          <Card.Header
+            className="h1 bg-lighter-tg text-darker-tg"
+            style={{ border: 'none', marginBottom: '1rem' }}
+          >
+            Featured Projects
+          </Card.Header>
           {Projects &&
             Projects.Projects.map((project) => {
               return (

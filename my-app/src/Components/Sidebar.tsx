@@ -50,7 +50,7 @@ export const Sidebar = (props: OffcanvasProps) => {
         show={show}
         onHide={handleClose}
         placement={props.placement}
-        className="bg-darker-tg "
+        className="bg-darker-tg bg-gradient"
         style={{}}
       >
         <Offcanvas.Header className="bg-light text-darker-tg" closeButton>
