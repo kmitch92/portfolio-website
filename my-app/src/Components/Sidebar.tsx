@@ -108,10 +108,11 @@ export const Sidebar = (props: OffcanvasProps) => {
               LinkedIn
             </Card.Header>
             <Card.Body>
-              Notice the Lab Manager role that I fulfilled while pursuing
-              painting, and running a boutique production company. I am now
-              pursuing Software Developer roles, where I hope to find use for
-              both my creative and analytical faculties.
+              I have worked as a laboratory manager and chemistry analyst for
+              over a decade; a time where I also pursued oil -painting and ran a
+              boutique production company business. I am now pursuing Software
+              Developer roles, where I hope to find use for both my creative and
+              analytical faculties.
             </Card.Body>
             <Card.Footer>
               {' '}
@@ -141,8 +142,8 @@ export const Sidebar = (props: OffcanvasProps) => {
             </Card.Header>
             <Card.Body>
               My success as a painter shows my commitment to the pursuits that I
-              engage in, the attention to detail that I apply to my work, and
-              the drive towards skill mastery that animates me.{' '}
+              engage in, the attention to detail that I apply to my projects,
+              and the drive towards skill-mastery that animates my work.{' '}
             </Card.Body>
             <Card.Footer>
               {' '}
@@ -171,10 +172,10 @@ export const Sidebar = (props: OffcanvasProps) => {
               Film
             </Card.Header>
             <Card.Body>
-              A friend and I started Mind Over Media Productions while still
-              film students. We were able to work on a number of projects to a
-              high standard and learn about running a small business.
-              Ultimately, opportunities lay elsewhere for both of us, but this
+              A friend and I started Mind Over Media Productions as film
+              students. We were able to work on a number of projects to a high
+              standard and learn the ropes of running a small business.
+              Ultimately, opportunities lay elsewhere for us both, but this
               remains an invaluable experience.
             </Card.Body>
             <Card.Footer>

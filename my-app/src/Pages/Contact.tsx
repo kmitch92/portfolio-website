@@ -78,10 +78,10 @@ export const Contact = () => {
           </Card.Header>
           <Card.Text style={{ padding: '1%' }}>
             <h5>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Thank you for taking the time to look at my work. If you have any
+              questions, would like to contact me with an employment
+              opportunity, or just fancy a chat, please use one of the contact
+              options below to reach me. Thanks!
             </h5>
           </Card.Text>
           <Card

@@ -51,7 +51,6 @@ export const Portfolio = () => {
                     <Card.Text>{project.Description}</Card.Text>
                   </Card.Body>
                   <Card.Body>
-                    {' '}
                     {project.Tags.split(' ').map((tag) => (
                       <span style={{ marginRight: '0.4rem' }}>
                         <TechPill tech={tag} />
