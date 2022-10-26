@@ -2,7 +2,7 @@
   "Projects": [
     {
       "Title": "This Portfolio Site",
-      "Description": "The site you are currently using! This project has been my first time using TypeScript and Bootstrap with React, and has required me me to learn some Sass to be able to customise Bootstrap's built in theme colours. Various libraries were used to view markdown documents in the DOM, and to animate page transitions.",
+      "Description": "The site you are currently using! This project has been my first using TypeScript and Bootstrap with React, and has required me me to learn some Sass to be able to customise Bootstrap's built in theme colours. Various libraries were used to view markdown documents in the DOM, and to animate page transitions.",
       "Tags": "TypeScript React Sass Bootstrap",
       "Images": ["portfolio.png"],
       "Link": "null",
