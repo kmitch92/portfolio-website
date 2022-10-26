@@ -57,8 +57,9 @@ export const Portfolio = () => {
                       href={project.Link}
                     >
                       <BsLink45Deg
-                        style={{ fontSize: '2rem', margin: '0.2rem' }}
-                      />
+                        style={{ fontSize: '1.4rem', margin: '0.1rem' }}
+                      />{' '}
+                      Hosted
                     </Button>
                     <Button
                       variant="darker-tg"
@@ -66,8 +67,9 @@ export const Portfolio = () => {
                       style={{ borderRadius: '9px' }}
                     >
                       <BsGithub
-                        style={{ fontSize: '2rem', margin: '0.2rem' }}
-                      />
+                        style={{ fontSize: '1.4rem', margin: '0.1rem' }}
+                      />{' '}
+                      Repositiory
                     </Button>
                   </Card.Body>
                 </Card>
