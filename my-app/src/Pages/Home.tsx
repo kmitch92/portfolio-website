@@ -29,7 +29,7 @@ export const Home = () => {
         }}
       >
         <Card
-          style={{ width: '55vw', padding: '30px', border: 'none' }}
+          style={{ width: '50vw', padding: '30px', border: 'none' }}
           className="shadow-sm bg-lighter-tg"
         >
           <Card
@@ -45,7 +45,8 @@ export const Home = () => {
             </Card.Header>
             <Card.Img
               variant="middle"
-              src="https://images-cdn.9gag.com/photo/aN1zy3w_700b.jpg"
+              src="kiel1.png"
+              style={{ filter: 'brightness(1.1) saturate(110%)' }}
             />{' '}
             <Card.Body
               className="bg-white text-darker-tg"

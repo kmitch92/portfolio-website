@@ -37,7 +37,16 @@ export const Portfolio = () => {
                   >
                     <h3>{project.Title}</h3>
                   </Card.Header>
-                  <Card.Img variant="middle" src={project.Images[0]} />
+                  <Card.Img
+                    variant="middle"
+                    src={project.Images[0]}
+                    style={{
+                      width: '100%',
+
+                      objectFit: 'cover',
+                      objectPosition: 'top',
+                    }}
+                  />
                   <Card.Body>
                     <Card.Text>{project.Description}</Card.Text>
                   </Card.Body>

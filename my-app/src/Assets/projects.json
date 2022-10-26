@@ -4,9 +4,7 @@
       "Title": "Re-Wordle - Wordle Clone",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "Tags": "JavaScript React CSS",
-      "Images": [
-        "https://cdn.theculturetrip.com/wp-content/uploads/2021/10/2cgr94k-e1633622169164.jpg"
-      ],
+      "Images": ["re-wordle-1.PNG"],
       "Link": "https://re-wordle-clone.netlify.app/",
       "GitHub": "https://github.com/kmitch92/Re-Wordle"
     },
@@ -14,7 +12,7 @@
       "Title": "wePark - Parking Social Network App",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "Tags": "JavaScript React-Native Tailwind PostgreSQL Node Express",
-      "Images": ["https://i.redd.it/n3toa7n4izq31.jpg"],
+      "Images": ["We-Park.png"],
       "Link": "null",
       "GitHub": "https://github.com/jakewilliams33/wePark-fe"
     },
@@ -22,9 +20,7 @@
       "Title": "NC News - Front-End Mock News/Blog Site",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "Tags": "JavaScript React CSS",
-      "Images": [
-        "https://www.visitabdn.com/assets/Uploads/_resampled/ScaleWidthWyIxOTAwIl0/Lairig-Ghru-View-from-Ben-Macdui-VA-USE-ONLY-SHUTTERSTOCK-PURCHASE-EXPIRES-13-MAR-2021-low-res10.jpg"
-      ],
+      "Images": ["NC-1.png"],
       "Link": "https://nc-news-fullstack-project.netlify.app/",
       "GitHub": "https://github.com/kmitch92/Re-Wordle"
     },
@@ -32,9 +28,7 @@
       "Title": "NC News - Back-End RESTful API",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "Tags": "Node Express Jest PostgreSQL",
-      "Images": [
-        "https://i.pinimg.com/originals/04/05/b7/0405b7a42d38e1e0973f8ff41a0d7318.jpg"
-      ],
+      "Images": ["Backend-1.png"],
       "Link": "https://backend-news-project.herokuapp.com/api",
       "GitHub": "https://github.com/kmitch92/backend-news-project"
     },
@@ -42,9 +36,7 @@
       "Title": "Portfolio Site - The Site You Are Currently Using!",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
       "Tags": "TypeScript React Bootstrap Sass",
-      "Images": [
-        "http://d13dvnaesjm4lk.cloudfront.net/blog/1633286543_728d6dcf9e9a0cd4ab5f9f1c489b2a23.jpg"
-      ],
+      "Images": ["portfolio-1.png"],
       "Link": "null",
       "GitHub": "https://github.com/kmitch92/portfolio-website"
     }
