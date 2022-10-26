@@ -59,8 +59,8 @@ export const Home = () => {
               </Card.Text>
               <Card.Text>
                 Having recently completed the Northcoders Skills Bootcamp, I am
-                now looking for roles where I will continue to learn and grow as
-                a developer.
+                now looking for roles where I will be able to apply my work
+                ethic and continue to learn and grow as a developer.
               </Card.Text>
               <div
                 style={{
