@@ -42,7 +42,7 @@ Used a variety of complex precision instruments (Gas Chromatographs, High-Perfor
 
 ![](Aspose.Words.8d6bb93a-a3e9-4fc3-a79a-39a659bccbd7.004.png) **MSc Computer Science** (remote, part-time), University of Bath: Jan 2022 to present
 
-(finishes April 2024).
+(finishing April 2024), grade: Distinction expected.
 
 ![](Aspose.Words.8d6bb93a-a3e9-4fc3-a79a-39a659bccbd7.005.png) BA Film Production, University of Salford, July 2019, 1st class hons.
 
