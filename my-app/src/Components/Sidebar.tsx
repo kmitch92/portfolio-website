@@ -141,8 +141,8 @@ export const Sidebar = (props: OffcanvasProps) => {
               Painting
             </Card.Header>
             <Card.Body>
-              My success as a painter shows my commitment to the pursuits that I
-              engage in, the attention to detail that I apply to my projects,
+              My successes as a painter show my commitment to the pursuits that
+              I engage in, the attention to detail that I apply to my projects,
               and the drive towards skill-mastery that animates my work.{' '}
             </Card.Body>
             <Card.Footer>
