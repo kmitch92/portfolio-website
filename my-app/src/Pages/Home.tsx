@@ -161,10 +161,9 @@ export const Home = () => {
                   </Badge>{' '}
                   <br />
                   <br />
-                  Most of the code that I have written has been in JavaScript,
-                  though I have also written some Java and Python and have
-                  touched upon C. I am familiar with SQL through using
-                  PostgreSQL and SQLite.
+                  Most of my code so far has been in JavaScript, though I have
+                  also written some Java and Python and have touched upon C. I
+                  am familiar with SQL through using PostgreSQL and SQLite.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
