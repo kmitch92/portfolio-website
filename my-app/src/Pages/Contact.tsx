@@ -5,6 +5,8 @@ import { ContactOption, Props } from '../Components/ContactOption';
 import { useRef, MutableRefObject, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import AnimatedPage from '../Components/AnimatedPage';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const popover = (
   <Popover id="popover-basic" className="shadow">
@@ -64,130 +66,146 @@ export const Contact = () => {
 
   return (
     <AnimatedPage>
-      <Container>
-        <Card
-          style={{ padding: '25px', border: 'none', marginTop: '60px' }}
-          className="shadow-sm bg-lighter-tg"
-        >
-          <Card.Header
-            className="bg-lighter-tg text-darker-tg"
-            style={{ border: 'none' }}
-            as="h1"
-          >
-            Please, get in touch!
-          </Card.Header>
-          <Card.Text style={{ padding: '1%' }}>
-            <h5>
-              Thank you for taking the time to look at my work. If you have any
-              questions, would like to contact me with an employment
-              opportunity, or just fancy a chat, please use one of the contact
-              options below to reach me. Thanks!
-            </h5>
-          </Card.Text>
-          <Card
-            style={{ padding: '25px', border: 'none', marginTop: '30px' }}
-            className="shadow-sm"
-          >
-            <h1 className="text-darker-tg">Contact Me</h1>
-            <Form style={{ marginTop: '2rem' }} ref={form} onSubmit={sendEmail}>
-              <Form.Group className="mb-3" controlId="formBasicName">
-                <Form.Control
-                  type="text"
-                  name="name"
-                  className="shadow-sm"
-                  style={{ border: 'none' }}
-                  placeholder="Your Name"
-                />
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Control
-                  type="email"
-                  name="email"
-                  className="shadow-sm"
-                  style={{ border: 'none' }}
-                  placeholder="Your Email Address"
-                />
-              </Form.Group>
-
-              <Form.Group className="mb-3" controlId="formBasicTopic">
-                <Form.Control
-                  type="text"
-                  name="topic"
-                  className="shadow-sm"
-                  style={{ border: 'none' }}
-                  placeholder="Topic"
-                />
-              </Form.Group>
-              <Form.Group>
-                <Form.Control
-                  type="text"
-                  name="message"
-                  className="shadow-sm"
-                  style={{ border: 'none' }}
-                  placeholder="Message"
-                />
-              </Form.Group>
-              <OverlayTrigger
-                trigger="click"
-                placement="right"
-                overlay={popover}
+      <Container fluid="md" style={{ marginBottom: '20px' }}>
+        <Row>
+          <Col></Col>
+          <Col md={8}>
+            <Card
+              style={{ padding: '10px', border: 'none', marginTop: '20px' }}
+              className="shadow-sm bg-lighter-tg"
+            >
+              <Card.Header
+                className="bg-lighter-tg text-darker-tg"
+                style={{ border: 'none' }}
+                as="h1"
               >
-                {showSubmit ? (
-                  <Button
-                    variant="darker-tg"
-                    style={{
-                      marginTop: '20px',
-                      border: 'none',
-                      borderRadius: '9px',
-                      marginLeft: '50%',
-                      transform: 'translateX(-50%)',
-                      padding: '0.6rem',
-                      fontSize: '1.2rem',
-                      width: '8rem',
-                      fontWeight: '500',
-                    }}
-                    className="shadow-sm "
-                    type="submit"
+                Please, get in touch!
+              </Card.Header>
+              <Card.Text style={{ padding: '1%' }}>
+                <h5>
+                  Thank you for taking the time to look at my work. If you have
+                  any questions, would like to contact me with an employment
+                  opportunity, or just fancy a chat, please use one of the
+                  contact options below to reach me. Thanks!
+                </h5>
+              </Card.Text>
+
+              <Card
+                style={{ padding: '25px', border: 'none', marginTop: '10px' }}
+                className="shadow-sm"
+              >
+                <h1 className="text-darker-tg">Contact Me</h1>
+                <Form
+                  style={{ marginTop: '2rem' }}
+                  ref={form}
+                  onSubmit={sendEmail}
+                >
+                  <Form.Group className="mb-3" controlId="formBasicName">
+                    <Form.Control
+                      type="text"
+                      name="name"
+                      className="shadow-sm"
+                      style={{ border: 'none' }}
+                      placeholder="Your Name"
+                    />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicEmail">
+                    <Form.Control
+                      type="email"
+                      name="email"
+                      className="shadow-sm"
+                      style={{ border: 'none' }}
+                      placeholder="Your Email Address"
+                    />
+                  </Form.Group>
+
+                  <Form.Group className="mb-3" controlId="formBasicTopic">
+                    <Form.Control
+                      type="text"
+                      name="topic"
+                      className="shadow-sm"
+                      style={{ border: 'none' }}
+                      placeholder="Topic"
+                    />
+                  </Form.Group>
+                  <Form.Group>
+                    <Form.Control
+                      type="text"
+                      name="message"
+                      className="shadow-sm"
+                      style={{ border: 'none' }}
+                      placeholder="Message"
+                    />
+                  </Form.Group>
+                  <OverlayTrigger
+                    trigger="click"
+                    placement="right"
+                    overlay={popover}
                   >
-                    Submit
-                  </Button>
-                ) : (
-                  <Button
-                    variant="darker-tg"
-                    style={{
-                      marginTop: '20px',
-                      border: 'none',
-                      borderRadius: '9px',
-                      marginLeft: '50%',
-                      transform: 'translateX(-50%)',
-                      padding: '0.6rem',
-                      fontSize: '1.2rem',
-                      width: '8rem',
-                      fontWeight: '500',
-                    }}
-                    className="shadow-sm"
-                    disabled
-                  >
-                    Submit
-                  </Button>
-                )}
-              </OverlayTrigger>
-            </Form>
-          </Card>
-          <Container
-            style={{
-              display: 'flex',
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-              marginTop: '1rem',
-            }}
-          >
-            {contOpts.map((option) => (
-              <ContactOption option={option} />
-            ))}
-          </Container>
-        </Card>
+                    {showSubmit ? (
+                      <Button
+                        variant="darker-tg"
+                        style={{
+                          marginTop: '20px',
+                          border: 'none',
+                          borderRadius: '9px',
+                          marginLeft: '50%',
+                          transform: 'translateX(-50%)',
+                          padding: '0.6rem',
+                          fontSize: '1.2rem',
+                          width: '8rem',
+                          fontWeight: '500',
+                        }}
+                        className="shadow-sm "
+                        type="submit"
+                      >
+                        Submit
+                      </Button>
+                    ) : (
+                      <Button
+                        variant="darker-tg"
+                        style={{
+                          marginTop: '20px',
+                          border: 'none',
+                          borderRadius: '9px',
+                          marginLeft: '50%',
+                          transform: 'translateX(-50%)',
+                          padding: '0.6rem',
+                          fontSize: '1.2rem',
+                          width: '8rem',
+                          fontWeight: '500',
+                        }}
+                        className="shadow-sm"
+                        disabled
+                      >
+                        Submit
+                      </Button>
+                    )}
+                  </OverlayTrigger>
+                </Form>
+              </Card>
+
+              <Container
+                fluid="sm"
+                style={{
+                  justifyContent: 'space-between',
+                  marginTop: '1rem',
+                  padding: '1rem',
+                }}
+              >
+                <Row>
+                  {contOpts.map((option) => (
+                    <Col>
+                      <ContactOption option={option} />
+                    </Col>
+                  ))}
+                </Row>
+              </Container>
+            </Card>
+          </Col>
+          <Col></Col>
+        </Row>
       </Container>
     </AnimatedPage>
   );

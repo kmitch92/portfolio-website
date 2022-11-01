@@ -12,7 +12,7 @@ interface Props {
 export const PDFmodal: FC<Props> = ({ PDFmodalShow, handleClose }) => {
   return (
     <Modal
-      style={{ height: '60vh', marginTop: '10vh' }}
+      style={{ height: '80vh', marginTop: '10vh' }}
       show={PDFmodalShow}
       onHide={handleClose}
     >

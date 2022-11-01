@@ -15,12 +15,11 @@ export const ContactOption: FC<Props> = ({ option }) => {
   return (
     <Card
       style={{
-        margin: '2rem',
-        width: '100%',
+        margin: '2%',
         textAlign: 'center',
-        height: '12rem',
+        borderRadius: '6px',
       }}
-      className="bg-ligher-tg text-darker-tg shadow-sm"
+      className="bg-white text-darker-tg shadow-sm"
       key={option.name}
     >
       <Card.Header className="text-lighter-tg bg-darker-tg">
@@ -33,18 +32,20 @@ export const ContactOption: FC<Props> = ({ option }) => {
         {option.icon === 'whatsapp' && (
           <BsWhatsapp style={{ fontSize: '1.4rem', margin: '0.6rem' }} />
         )}
-        <h5>{option.name}</h5>
+        <h5 style={{ whiteSpace: 'nowrap' }}>{option.name}</h5>
       </Card.Header>
       <Card.Body>
-        <Card.Text className="h6">{option.contact}</Card.Text>
+        <Card.Text className="h6" style={{ whiteSpace: 'nowrap' }}>
+          {option.contact}
+        </Card.Text>
       </Card.Body>
       <Button
         href={option.link}
         className="shadow-sm"
         variant="outline-darker-tg"
-        style={{ width: '50%', alignSelf: 'center', marginBottom: '0.6rem' }}
+        style={{ alignSelf: 'center', marginBottom: '0.6rem' }}
       >
-        Get in Touch!
+        Contact
       </Button>
     </Card>
   );

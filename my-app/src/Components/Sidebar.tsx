@@ -23,15 +23,17 @@ export const Sidebar = (props: OffcanvasProps) => {
         right: '0%',
         bottom: '50%',
         height: '10vh',
+        zIndex: 1000,
       }}
     >
       <Button
         variant="darker-tg"
         onClick={handleShow}
         style={{
-          height: '14rem',
-          width: '2.6rem',
+          height: '10rem',
+          width: '2.1rem',
           borderRadius: '20px 0px 0px 20px',
+          paddingRight: '0.6rem',
         }}
       >
         <h3
@@ -39,7 +41,7 @@ export const Sidebar = (props: OffcanvasProps) => {
             transform: 'rotate(-90deg)',
             letterSpacing: '.5rem',
             textAlign: 'center',
-            marginTop: '6.7rem',
+            marginTop: '6.8rem',
           }}
         >
           LINKS
@@ -109,7 +111,7 @@ export const Sidebar = (props: OffcanvasProps) => {
             </Card.Header>
             <Card.Body>
               I have worked as a laboratory manager and chemistry analyst for
-              over a decade; a time where I also pursued oil -painting and ran a
+              over a decade; a time where I also pursued oil-painting and ran a
               boutique production company business. I am now pursuing Software
               Developer roles, where I hope to find use for both my creative and
               analytical faculties.

@@ -7,7 +7,7 @@ export const Navbar = () => {
       sticky="top"
       variant="dark"
       className="bg-darker-tg shadow-sm mb-3"
-      style={{ height: '5vh' }}
+      style={{ height: '6vh' }}
     >
       <Container className="text-white">
         <Nav className="me-auto h4 ">
@@ -17,7 +17,7 @@ export const Navbar = () => {
           <Nav.Link to="/portfolio" style={{ marginRight: '1vw' }} as={NavLink}>
             Portfolio
           </Nav.Link>
-          <Nav.Link to="/contact" style={{ marginRight: '1vw' }} as={NavLink}>
+          <Nav.Link to="/contact" style={{}} as={NavLink}>
             Contact
           </Nav.Link>
         </Nav>
