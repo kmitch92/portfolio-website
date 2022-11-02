@@ -58,8 +58,8 @@ export const Contact = () => {
   const opt3: Props['option'] = {
     icon: 'whatsapp',
     name: 'WhatsApp',
-    contact: '07950 667413',
-    link: 'https://api.whatsapp.com/send?phone=07950667413',
+    contact: '+447950 667413',
+    link: 'https://api.whatsapp.com/send?phone=447950667413',
   };
 
   const contOpts = [opt1, opt2, opt3];
