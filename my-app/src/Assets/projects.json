@@ -4,7 +4,7 @@
       "Title": "This Portfolio Site",
       "Description": "The site you are currently using! This has been my first project using TypeScript and React-Bootstrap, and has required me me to learn some Sass to be able to customise Bootstrap's built in theme colours. Various libraries were used to view markdown documents in the DOM, add the contact form-email integration, and to animate page transitions.",
       "Tags": "TypeScript React Sass Bootstrap",
-      "Images": ["portfolio.png"],
+      "Images": ["portfoliojpg.jpg"],
       "Link": "null",
       "GitHub": "https://github.com/kmitch92/portfolio-website"
     },
@@ -12,7 +12,7 @@
       "Title": "Re-Wordle - Wordle Clone",
       "Description": "Re-Wordle was developed during the Northcoders bootcamp. It was one of my first React projects, and had innocuous beginnings as an educational exercise to build a single page web-app. After making some headway with the project I decided to continue with it in my own time, ultimately building it out to a more-or-less complete Wordle clone.",
       "Tags": "JavaScript React CSS",
-      "Images": ["re-wordle-1.PNG"],
+      "Images": ["re-wordle-1jpg.jpg"],
       "Link": "https://re-wordle-clone.netlify.app/",
       "GitHub": "https://github.com/kmitch92/Re-Wordle"
     },
@@ -20,7 +20,7 @@
       "Title": "wePark - Parking Social Network App",
       "Description": "wePark was a group capstone project that closed the intensive 13-week Northcoders bootcamp. We used React-Native and Expo to quickly get up and running with mobile development, using the Expo Google maps integration API to geo-tag parking spots, all the while interacting with a RESTful Node/Express back-end. Additionally, this was my first experience with the popular CSS framework, Tailwind.",
       "Tags": "JavaScript React-Native Tailwind PostgreSQL Node Express",
-      "Images": ["We-Park.png"],
+      "Images": ["We-Park.jpg"],
       "Link": "",
       "GitHub": "https://github.com/jakewilliams33/wePark-fe"
     },
@@ -28,7 +28,7 @@
       "Title": "NC News - Back-End RESTful API",
       "Description": "This API was built during my tenure at the Northcoders bootcamp, using a Node/Express Back-end to communicate with a PostgreSQL database. Devlopment was under TDD principles, with Jest, Jest-sorted and Supertest used. Stock data was supplied by Northcoders.",
       "Tags": "Node Express Jest PostgreSQL",
-      "Images": ["Backend-1.png"],
+      "Images": ["Backend-1.jpg"],
       "Link": "https://backend-news-project.herokuapp.com/api",
       "GitHub": "https://github.com/kmitch92/backend-news-project"
     },
@@ -36,7 +36,7 @@
       "Title": "NC News - Front-End Mock News Site/Blog",
       "Description": "The follow-up to the previous project, this front-end project consolidated my React.js learning during the Northcoders bootcamp. It uses React-router to serve different URLs to the user while remaining a one-page application, and CSS media queries to give responsive design that works for mobile and PC devices.",
       "Tags": "JavaScript React CSS",
-      "Images": ["NC-1.png"],
+      "Images": ["NC-1jpg.jpg"],
       "Link": "https://nc-news-fullstack-project.netlify.app/",
       "GitHub": "https://github.com/kmitch92/nc-news"
     }
