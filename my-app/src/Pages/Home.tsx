@@ -211,9 +211,9 @@ export const Home = () => {
                       projects, and have managed to gain a basic familiarity
                       with a few of the major styling libraries and frameworks.
                       <br />
-                      <br />I had an introduction to mobile development through
-                      React-Native while at Northcoders, and this website has
-                      been my first foray into using TypeScript.
+                      <br />I have made an Android app with React-Native, and
+                      this website has been my first foray into using
+                      TypeScript.
                     </Accordion.Body>
                   </Accordion.Item>
                   <Accordion.Item eventKey="2">
@@ -226,7 +226,7 @@ export const Home = () => {
                       <Badge pill bg="teal-grey">
                         PostgreSQL
                       </Badge>
-                      {'  '}
+                      {'  '}sd
                       <Badge pill bg="typescript">
                         SQLite
                       </Badge>
