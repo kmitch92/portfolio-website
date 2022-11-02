@@ -4,7 +4,7 @@
 
 **Email** - [kielmitchell8@gmail.com ](mailto:kielmitchell8@gmail.com)
 
-**Portfolio** - LINK HERE
+**Portfolio** - <https://kielmitchell.dev>
 
 **Github** - <https://github.com/kmitch92>
 
@@ -26,7 +26,7 @@ _Testing_: Jest, Husky
 
 ![](Aspose.Words.8d6bb93a-a3e9-4fc3-a79a-39a659bccbd7.001.png) ***Full-Stack Junior Developer, Northcoders Bootcamp**: June - Sept. 2022*
 
-An intense 13-weeks that takes beginners and makes them employment-ready as developers. This was a way for me to quickly gain the practical experience to complement the theory in my Comp-Sci MSc. Portfolio:LINK PORTFOLIO SITE
+An intense 13-weeks that takes beginners and makes them employment-ready as developers. This was a way for me to quickly gain the practical experience to complement the theory in my Comp-Sci MSc. Portfolio: <https://kielmitchell.dev>
 
 ***Company Director, Mind Over Media Productions LTD**: Nov. 2018 - Aug. 2022![](Aspose.Words.8d6bb93a-a3e9-4fc3-a79a-39a659bccbd7.002.png)*
 
