@@ -21,7 +21,7 @@
       "Description": "wePark was a group capstone project that closed the intensive 13-week Northcoders bootcamp. We used React-Native and Expo to quickly get up and running with mobile development, using the Expo Google maps integration API to geo-tag parking spots, all the while interacting with a RESTful Node/Express back-end. Additionally, this was my first experience with the popular CSS framework, Tailwind.",
       "Tags": "JavaScript React-Native Tailwind PostgreSQL Node Express",
       "Images": ["We-Park.png"],
-      "Link": "null",
+      "Link": "",
       "GitHub": "https://github.com/jakewilliams33/wePark-fe"
     },
     {

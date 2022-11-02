@@ -71,17 +71,20 @@ export const Portfolio = () => {
                       </Card.Body>
 
                       <Card.Body>
-                        <Button
-                          variant="darker-tg"
-                          style={{
-                            marginRight: '10px',
-                            marginBottom: '10px',
-                            borderRadius: '9px',
-                          }}
-                          href={project.Link}
-                        >
-                          <BsLink45Deg style={{ fontSize: '1.4rem' }} /> Hosted
-                        </Button>
+                        {project.Link !== '' && (
+                          <Button
+                            variant="darker-tg"
+                            style={{
+                              marginRight: '10px',
+                              marginBottom: '10px',
+                              borderRadius: '9px',
+                            }}
+                            href={project.Link}
+                          >
+                            <BsLink45Deg style={{ fontSize: '1.4rem' }} />{' '}
+                            Hosted
+                          </Button>
+                        )}
                         <Button
                           variant="darker-tg"
                           href={project.GitHub}
