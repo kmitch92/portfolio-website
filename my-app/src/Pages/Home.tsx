@@ -52,8 +52,12 @@ export const Home = () => {
                 </Card.Header>
                 <Card.Img
                   variant="middle"
-                  src="kiel1jpg.jpg"
-                  style={{ filter: 'brightness(1.1) saturate(110%)' }}
+                  // src="kiel1jpg.jpg"
+                  src="kielshirtpic2.jpg"
+                  style={{
+                    filter:
+                      'brightness(0.95) saturate(110%) contrast(110%) hue-rotate(-10deg)',
+                  }}
                 />{' '}
                 <Card.Body
                   className="bg-white text-darker-tg"
