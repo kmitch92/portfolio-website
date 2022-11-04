@@ -53,8 +53,7 @@ export const Portfolio = () => {
                         variant="middle"
                         src={project.Images[0]}
                         style={{
-                          width: '100%',
-
+                          width: '100.01%',
                           objectFit: 'cover',
                           objectPosition: 'top',
                         }}
